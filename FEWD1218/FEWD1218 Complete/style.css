@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #ffe4e4;
+}
+
+.navbar {
+  color: #d63031;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8.5rem;
+}
+
+.icon {
+  width: 30px;
+}
+
+.logo-name,
+.standard {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.right-cont,
+.left-cont,
+.user {
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.user {
+  margin-right: 2rem;
+}
+
+.profile-icon {
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 9px;
+  background-color: #d63031;
+  color: white;
+}
+
+.courses:hover {
+  cursor: pointer;
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 2rem 0 0 0;
+}
+
+.content-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/** WRITE YOUR CODE BELOW **/
+
+.time-table {
+  /* Iteration 1: Set border-collapse property here */
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.time-table thead tr {
+  background-color: #d63031;
+  color: #ffffff;
+  /* Iteration 2: Align the text inside thead tag to left  */
+  text-align: left;
+  font-weight: 600;
+}
+
+.time-table th,
+.time-table td {
+  padding: 12px 15px;
+  /* Iteration 3: Set the values of width to 100px */
+  width: 100px;
+  height: 50px;
+}
+
+.time-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.time-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.time-table tbody tr:nth-of-type(odd) {
+  /* Iteration 4: Set the background color of all the odd rows to white */
+  background-color: white;
+}
+
+.time-table tbody tr td:first-child {
+  font-weight: 600;
+}
+
+.time-table tbody tr:last-of-type {
+  /* Iteration 5: Add a solid border of 2px and #d63031 color at the bottom of the last row  */
+  border-bottom: 2px solid #d63031;
+}
