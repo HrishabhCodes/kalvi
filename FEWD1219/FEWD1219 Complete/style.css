@@ -32,6 +32,7 @@ We just want to have a space of 4px  */
 
 header h1 {
   font-size: 20px;
+  margin-bottom: 4px;
 }
 
 header p {
@@ -42,7 +43,7 @@ header p {
 /* Iteration 3: We want the color hashtags under the name (#developer, #learner) to be of color #969696 
 but they are of color #154b92, fix it */
 
-em {
+.hashtags em {
   color: #969696;
 }
 
@@ -70,6 +71,8 @@ em {
 }
 
 /* Iteration 4: The color of GitHub icon should be #005cd5 but it is seen black, why? */
+
+/* We have set the color property to black using Inline CSS, go to line 33 in the HTML file and remove the Inline CSS */
 
 .github,
 .linkedin,
