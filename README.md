@@ -2,6 +2,7 @@
 
 ### HTML and Basics of Web Dev
 - [FEWD1101](https://hrishabhcodes.github.io/FEWD1101/)
+- [FEWD1102](https://hrishabhcodes.github.io/FEWD1102/)
 
 ### CSS
 - [FEWD1218](https://hrishabhcodes.github.io/FEWD1218/)
