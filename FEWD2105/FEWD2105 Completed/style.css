@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Luckiest Guy", cursive;
+  background-color: #e6e6ea;
+}
+
+header {
+  background: #fe4a49;
+}
+
+.container {
+  width: 95%;
+  margin: auto;
+}
+
+.nav {
+  overflow: hidden;
+  background: #fe4a49;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.nav h2 {
+  font-size: 2rem;
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  font-size: 1.3rem;
+  margin-top: 5px;
+  float: left;
+  padding: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Wrapper */
+
+.equation {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
+  font-size: 64px;
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px 10px 0px 10px;
+  height: 86vh;
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#num1,
+#num2 {
+  color: #ffce3a;
+}
+
+.operator {
+  color: #2ab7ca;
+}
+
+.inputs h1 {
+  display: inline;
+  padding: 20px;
+  margin-top: 1.7rem;
+}
+
+.inputs input {
+  font-family: "Luckiest Guy", cursive;
+  border: 1px solid rgba(127, 127, 127, 0.768);
+  border-radius: 10px;
+  font-size: 64px;
+  width: 30%;
+  display: inline;
+  padding: 20px;
+}
+
+.calculate {
+  font-family: "Luckiest Guy", cursive;
+  text-decoration: none;
+  height: 10%;
+  background-color: #fe4a49;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 10px 0 10px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.calculate:hover {
+  cursor: pointer;
+}
+
+.answer {
+  color: #ffce3a;
+  margin-top: 2rem;
+  letter-spacing: 5px;
+}
