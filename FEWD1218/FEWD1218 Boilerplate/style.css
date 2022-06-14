@@ -67,8 +67,13 @@ body {
 
 /** WRITE YOUR CODE BELOW **/
 
+/* Iteration 1: Add a padding of 20px to the caption and change its text to italic  */
+.break {
+  text-align: center;
+}
+
 .time-table {
-  /* Iteration 1: Set border-collapse property here */
+  /* Iteration 2: Set border-collapse property here */
 
   margin: 25px 0;
   font-size: 0.9em;
@@ -79,7 +84,7 @@ body {
 .time-table thead tr {
   background-color: #d63031;
   color: #ffffff;
-  /* Iteration 2: Align the text inside thead tag to left  */
+  /* Iteration 3: Align the text inside thead tag to left  */
 
   font-weight: 600;
 }
@@ -87,7 +92,7 @@ body {
 .time-table th,
 .time-table td {
   padding: 12px 15px;
-  /* Iteration 3: Set the values of width to 100px */
+  /* Iteration 4: Set the values of width to 100px */
 
   height: 50px;
 }
@@ -100,16 +105,10 @@ body {
   background-color: #f3f3f3;
 }
 
-.time-table tbody tr:nth-of-type(odd) {
-  /* Iteration 4: Set the background color of all the odd rows to white */
-  
-}
+/* Iteration 5: Set the background color of all the odd rows to white */
 
 .time-table tbody tr td:first-child {
   font-weight: 600;
 }
 
-.time-table tbody tr:last-of-type {
-  /* Iteration 5: Add a solid border of 2px and #d63031 color at the bottom of the last row  */
-
-}
+/* Iteration 6: Add a solid border of 2px and #d63031 color at the bottom of the last row  */
