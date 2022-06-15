@@ -40,7 +40,7 @@ header p {
   margin-bottom: 10px;
 }
 
-/* Iteration 3: We want the color hashtags under the name (#developer, #learner) to be of color #969696 
+/* Iteration 3: We want the hashtags under the name (#developer, #learner) to be of color #969696 
 but they are of color #154b92, fix it */
 
 .hashtags em {
@@ -71,8 +71,7 @@ but they are of color #154b92, fix it */
 }
 
 /* Iteration 4: The color of GitHub icon should be #005cd5 but it is seen black, why? */
-
-/* We have set the color property to black using Inline CSS, go to line 33 in the HTML file and remove the Inline CSS */
+/* (Hint: The problem might not only be in the CSS file) */
 
 .github,
 .linkedin,
@@ -106,7 +105,7 @@ a {
   padding: 10px 10px 10px 5px;
 }
 
-.main-box a:hover {
+.main-box li:hover {
   background-color: rgba(207, 207, 207, 0.336);
 }
 
@@ -118,6 +117,7 @@ ul {
 li {
   margin: 10px;
   display: flex;
+  align-items: center;
   width: 100%;
 }
 
