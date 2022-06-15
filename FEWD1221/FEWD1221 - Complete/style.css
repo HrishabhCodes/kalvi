@@ -17,7 +17,7 @@ body {
 
 /** WRITE YOUR CODE BELOW **/
 
-/* Iteration 1: Add comments to separate different sections. */
+/* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
 /* Header */
 
 .header {
@@ -59,7 +59,6 @@ body {
   text-decoration: none;
 }
 
-/* Iteration 1: Add comments to separate different sections. */
 /* Navbar */
 
 .nav {
@@ -86,12 +85,11 @@ body {
   padding: 0 10px;
 }
 
-/* Iteration 1: Add comments to separate different sections. */
 /* Main */
 
-/* Iteration 3: The following code is not consistent, make it more readable. */
-.main .container { 
-  margin: 80px auto; 
+/* Iteration 4: The following code is not consistent, make it more readable. */
+.main .container {
+  margin: 80px auto;
 }
 
 .main img {
@@ -99,10 +97,9 @@ body {
   margin: 50px 80px 50px 0;
 }
 
-/* Iteration 1: Add comments to separate different sections. */
-/* Jumbotron */
+/* Membership */
 
-.jumbotron {
+.membership {
   color: #fff;
   height: 300px;
   text-align: right;
@@ -111,13 +108,13 @@ body {
   background-size: cover;
 }
 
-.jumbotron .container {
+.membership .container {
   position: relative;
   font-weight: 300;
   top: 100px;
 }
 
-.jumbotron .btn {
+.membership .btn {
   margin: 10px 0 0;
   float: right;
 }
@@ -129,7 +126,6 @@ body {
   transition-duration: 0.5s;
 }
 
-/* Iteration 1: Add comments to separate different sections. */
 /* Footer */
 
 .footer {
@@ -144,3 +140,13 @@ body {
   line-height: 80px;
   margin: 0;
 }
+
+/* 
+  Iteration 5: Breakdown the CSS file in separate files 
+  style.css - common styling
+  header.css - header section
+  navbar.css - navbar section
+  main.css - main section
+  membership.css - membership section
+  footer.css - footer section
+*/

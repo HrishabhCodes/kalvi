@@ -19,7 +19,6 @@ body {
 
 /* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
 
-
 .header {
   background: url("https://cdn.wallpapersafari.com/68/66/PLgQbl.jpg") no-repeat
     center center;
@@ -59,9 +58,6 @@ body {
   text-decoration: none;
 }
 
-/* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
-
-
 .nav {
   background: #000;
   height: 80px;
@@ -80,27 +76,21 @@ body {
   color: #fff;
     background: black;
   display: inline-block;
-  height: 80px;
+    height: 80px;
     line-height: 80px;
     list-style: none;
   padding: 0 10px;
 }
 
-/* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
-
-
-/* Iteration 3: The following code is not consistent, make it more readable. */
-.main .container { margin: 80px auto; }
+/* Iteration 4: The following code is not consistent, make it more readable. */
+.main .container {margin: 80px auto;}
 
 .main img {
   float: left;
   margin: 50px 80px 50px 0;
 }
 
-/* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
-
-
-.jumbotron {
+.membership {
   color: #fff;
   height: 300px;
   text-align: right;
@@ -109,13 +99,13 @@ body {
   background-size: cover;
 }
 
-.jumbotron .container {
+.membership .container {
   position: relative;
   font-weight: 300;
   top: 100px;
 }
 
-.jumbotron .btn {
+.membership .btn {
   color: #fff;
   background: #000;
   padding: 10px 40px;
@@ -131,9 +121,6 @@ body {
   transition-duration: 0.5s;
 }
 
-/* Iteration 1: Add comments to separate different sections (refer .html file to see the name of sections */
-
-
 .footer {
   height: 80px;
   background: #000;
@@ -146,3 +133,5 @@ body {
   line-height: 80px;
   margin: 0;
 }
+
+/* Iteration 5: Breakdown the CSS file in separate files */
