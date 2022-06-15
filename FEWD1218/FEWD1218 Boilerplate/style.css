@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+/* Iteration 1: Import Montserrat font with weight of 200 and 400 from Google Fonts (https://fonts.google.com/) */
 
 * {
   margin: 0;
@@ -65,15 +65,13 @@ body {
   align-items: center;
 }
 
-/** WRITE YOUR CODE BELOW **/
-
-/* Iteration 1: Add a padding of 20px to the caption and change its text to italic  */
+/* Iteration 2: Add a padding of 20px to the caption and change its text to italic  */
 .break {
   text-align: center;
 }
 
 .time-table {
-  /* Iteration 2: Set border-collapse property here */
+  /* Iteration 3:Remove borders from the table */
 
   margin: 25px 0;
   font-size: 0.9em;
@@ -84,7 +82,7 @@ body {
 .time-table thead tr {
   background-color: #d63031;
   color: #ffffff;
-  /* Iteration 3: Align the text inside thead tag to left  */
+  /* Iteration 4: Align the text inside thead tag to left  */
 
   font-weight: 600;
 }
@@ -92,9 +90,10 @@ body {
 .time-table th,
 .time-table td {
   padding: 12px 15px;
-  /* Iteration 4: Set the values of width to 100px */
+  text-align: center;
+  /* Iteration 5: Set the value of width to 100px */
 
-  height: 50px;
+  height: 40px;
 }
 
 .time-table tbody tr {
@@ -105,10 +104,10 @@ body {
   background-color: #f3f3f3;
 }
 
-/* Iteration 5: Set the background color of all the odd rows to white */
+/* Iteration 6: Set the background color of all the odd rows to white */
 
 .time-table tbody tr td:first-child {
   font-weight: 600;
 }
 
-/* Iteration 6: Add a solid border of 2px and #d63031 color at the bottom of the last row  */
+/* Iteration 7: Add a solid border of 2px and #d63031 color at the bottom of the last row  */
