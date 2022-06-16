@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Luckiest Guy", cursive;
+  background-color: #e6e6ea;
+}
+
+/* Header */
+
+/* Step 1: Add background color (#fe4a49) to the header element. */
+header {
+  background-color: #fe4a49;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  background: #fe4a49;
+  color: #fff;
+  /* Step 2: Add padding of 20px in y-axis and 0 in x-axis */
+  padding: 20px 0;
+}
+
+/* Step 3: Set the font-size of h2 element present inside the Navbar to 2rem */
+.nav h2 {
+  font-size: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Content */
+
+.content {
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
+  font-size: 64px;
+  background: aliceblue;
+  /* Step 4: Make the corners to be curved by 3px */
+  border-radius: 3px;
+  /* Step 5: Align the text to center */
+  text-align: center;
+  /* Step 6: Add margin of 10px, 10px, 0px, 10px at the top, right, bottom and left side respectively */
+  margin: 10px 10px 0px 10px;
+  height: 86vh;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#num1 {
+  color: #ffce3a;
+}
+
+.input-container input {
+  font-family: "Luckiest Guy", cursive;
+  border: 1px solid rgba(127, 127, 127, 0.768);
+  border-radius: 10px;
+  font-size: 25px;
+  width: 50%;
+  display: inline;
+  padding: 10px;
+  text-align: center;
+}
+
+.input-container label {
+  font-size: 30px;
+}
+
+.display-btn {
+  font-family: "Luckiest Guy", cursive;
+  text-decoration: none;
+  height: 7%;
+  background-color: #fe4a49;
+  color: white;
+  border: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 5px 20px 0 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+/* Step 7: Change the cursor to a pointer while hovering over the display button */
+.display-btn:hover {
+  cursor: pointer;
+}
+
+.table {
+  /* Step 8: Give this element a width of 50% of its parent element. */
+  width: 50%;
+  background-color: #ffd965;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  height: 300px;
+  overflow: auto;
+}
+
+.table-element {
+  margin: 0.5rem 0;
+  background-color: #ffce3a;
+  border-radius: 15px;
+  padding: 13px 5px 5px 5px;
+}
+
+.table-element p {
+  letter-spacing: 5px;
+  font-size: 20px;
+}
