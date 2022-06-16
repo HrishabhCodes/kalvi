@@ -10,22 +10,19 @@ body {
   background-color: #e6e6ea;
 }
 
-header {
-  background: #fe4a49;
-}
+/* Header */
+
+/* Step 1: Add background color (#fe4a49) to the header element. */
 
 .nav {
-  overflow: hidden;
   display: flex;
   justify-content: center;
   background: #fe4a49;
   color: #fff;
-  padding: 20px 0;
+  /* Step 2: Add padding of 20px in y-axis and 0 in x-axis */
 }
 
-.nav h2 {
-  font-size: 2rem;
-}
+/* Step 3: Set the font-size of h2 element present inside the Navbar to 2rem */
 
 nav a {
   text-decoration: none;
@@ -43,9 +40,12 @@ nav a {
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.9);
   font-size: 64px;
   background: aliceblue;
-  border-radius: 3px;
-  text-align: center;
-  margin: 10px 10px 0px 10px;
+  /* Step 4: Make the corners to be curved by 3px */
+
+  /* Step 5: Align the text to center */
+
+  /* Step 6: Add margin of 10px, 10px, 0px, 10px at the top, right, bottom and left side respectively */
+
   height: 86vh;
 }
 
@@ -90,12 +90,11 @@ nav a {
   font-size: 20px;
 }
 
-.display-btn:hover {
-  cursor: pointer;
-}
+/* Step 7: Change the cursor to a pointer while hovering over the display button */
 
 .table {
-  width: 50%;
+  /* Step 8: Give this element a width of 50% of its parent element. */
+
   background-color: #ffd965;
   border-radius: 10px;
   padding: 1rem 2rem;

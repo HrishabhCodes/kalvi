@@ -1,8 +1,10 @@
 const inputElement = document.getElementById("num");
-const displayBtn = document.querySelector(".display-btn");
+// Step 10: Store the reference of display button into a variable called displayBtn
+
 const tableBox = document.querySelector(".table");
 
-displayBtn.addEventListener("click", (e) => {
+// Step 11: Add the appropriate event listener to the display button in place of "X"
+displayBtn.addEventListener("X", (e) => {
   e.preventDefault();
   if (tableBox.hasChildNodes()) {
     for (let i = 1; i <= 10; i++) {
@@ -10,7 +12,7 @@ displayBtn.addEventListener("click", (e) => {
     }
   }
   const number = parseInt(inputElement.value);
-  if (!number) {
+  if (number != 0 && !number) {
     alert("Enter a number!");
     return;
   }
@@ -23,3 +25,6 @@ displayBtn.addEventListener("click", (e) => {
     tableBox.appendChild(tableElement);
   }
 });
+
+// Step 12: Define the function that is called when the display button is clicked separately and
+// name it as "display"
