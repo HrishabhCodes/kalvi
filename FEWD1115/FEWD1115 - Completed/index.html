@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <iframe src="./assets/background.svg" frameborder="0"></iframe>
+
+    <div class="header">
+      <img src="./assets/time.svg" alt="logo" />
+      <h1>Clock</h1>
+    </div>
+
+    <div id="time">
+      <div class="first circle">
+        <div class="dots hr_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div id="hours">06 <br /><span>HOURS</span></div>
+      </div>
+      <div class="second circle">
+        <div class="dots min_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div id="minutes">45 <br /><span>MINUTES</span></div>
+      </div>
+      <div class="third circle">
+        <div class="dots sec_dot"></div>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+        <div id="seconds">12 <br /><span>SECONDS</span></div>
+      </div>
+      <div class="meridies">
+        <div id="ampm">AM</div>
+      </div>
+    </div>
+  </body>
+</html>
