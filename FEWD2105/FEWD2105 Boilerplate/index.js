@@ -18,28 +18,28 @@ let numTwo = 0;
 incOne.addEventListener("click", (e) => {
   numOne = Number(num1.value);
   // Iteration 1: Increase numOne by 1 using increment operator
-  numOne++;
+
   num1.value = numOne;
 });
 
 decOne.addEventListener("click", (e) => {
   numOne = Number(num1.value);
   // Iteration 2: Decrease numOne by 1 using decrement operator
-  numOne--;
+
   num1.value = numOne;
 });
 
 incTwo.addEventListener("click", (e) => {
   numTwo = Number(num2.value);
   // Iteration 3: Increase numOne by 1 using an assignment operator
-  numTwo += 1;
+
   num2.value = numTwo;
 });
 
 decTwo.addEventListener("click", (e) => {
   numTwo = Number(num2.value);
   // Iteration 4: Decrease numOne by 1 using an assignment operator
-  numTwo -= 1;
+
   num2.value = numTwo;
 });
 
@@ -72,21 +72,20 @@ calculate.addEventListener("click", (e) => {
   let result;
   // Iteration 5: num1.value and num2.value are of type "String", convert their type to "Number" and
   // assign them to numOne and numTwo respectively
-  numOne = Number(num1.value);
-  numTwo = Number(num2.value);
+
 
   // Iteration 6: Use correct comparison operator instead of "=" in all the following conditions
   // Iteration 7: Add appropriate arithmetic operators between numOne and numTwo in place of "X"
-  if (operation === "add") {
-    result = numOne + numTwo;
-  } else if (operation === "subtract") {
-    result = numOne + numTwo;
-  } else if (operation === "multiply") {
-    result = numOne + numTwo;
-  } else if (operation === "divide") {
-    result = numOne / numTwo;
+  if (operation = "add") {
+    result = numOne "X" numTwo;
+  } else if (operation = "subtract") {
+    result = numOne "X" numTwo;
+  } else if (operation = "multiply") {
+    result = numOne "X" numTwo;
+  } else if (operation = "divide") {
+    result = numOne "X" numTwo;
   }
 
-  // Iteration 8: Round the answer to 2 decimal places
-  answer.innerText = result.toFixed(2);
+  // Iteration 8: Round the result to 2 decimal places
+  answer.innerText = result;
 });
