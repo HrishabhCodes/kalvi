@@ -12,3 +12,6 @@
 - [FEWD1222 and FEWD1223](https://hrishabhcodes.github.io/FEWD1222-and-FEWD1223/)
 
 ### JS
+
+- [FEWD2105](https://hrishabhcodes.github.io/FEWD2105/)
+- [FEWD2110](https://hrishabhcodes.github.io/FEWD2110/)
