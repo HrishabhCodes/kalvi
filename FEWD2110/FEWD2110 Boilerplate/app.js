@@ -25,8 +25,8 @@ function showNotes() {
   }
   let html = "";
   notesObj.forEach(function (element, index) {
-    // Iteration 1: Assign the length of the "element" (a string) to a variable called "strLength"
-    const strLength = element.length;
+    // Iteration 1: Assign the length of the "element" (a string) to "strLength"
+    const strLength = 
 
     html += `
       <div class="noteCard mx-2 my-2 card" style="width: 18rem">
@@ -79,11 +79,11 @@ function upNote(index) {
   for (let i = 0; i < arr.length; i++) {
     const word = arr[i];
     // Iteration 2: Get the first character of the word and assign it to firstLetter
-    const firstLetter = word[0];
+    const firstLetter = 
     // Iteration 3: Store the "firstLetter" (in uppercase) in upFirst
-    const upFirst = firstLetter.toUpperCase();
+    const upFirst = firstLetter;
     // Iteration 4: Get the whole word except the first letter and store it in "remainingString"
-    const remainingString = word.substring(1);
+    const remainingString = 
     temp[i] = upFirst + remainingString;
   }
   let newStr = temp.join(" ");
@@ -95,13 +95,13 @@ function upNote(index) {
 let search = document.getElementById("searchTxt");
 search.addEventListener("input", function () {
   // Iteration 5: Store the value of search input in lowercase
-  let inputVal = search.value.toLowerCase();
+  let inputVal = 
   let noteCards = document.getElementsByClassName("noteCard");
 
   Array.from(noteCards).forEach(function (element) {
     let cardTxt = element.getElementsByTagName("p")[0].innerText.toLowerCase();
     // Iteration 6: Check whether "cardTxt" includes the string stored in "inputVal" in the condition (replace it with "X")
-    if (cardTxt.includes(inputVal)) {
+    if ("X") {
       element.style.display = "block";
     } else {
       element.style.display = "none";
