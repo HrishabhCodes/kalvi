@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.heading {
+  width: 70%;
+  color: black;
+  font-size: 70px;
+  letter-spacing: 20px;
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.namecard {
+  margin: auto;
+  width: 70%;
+}
+
+a {
+  color: white;
+}
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 220px;
+  margin: 40px auto;
+  box-shadow: 2px 5px 15px 2px #0f0e0e94;
+  border-radius: 3px;
+  background-color: black;
+}
+
+.info-grid {
+  width: 97%;
+  height: 95%;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.432);
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.name {
+  width: 90%;
+  height: 60px;
+  padding-top: 10px;
+  margin: auto;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.addr,
+.phoneNo,
+.emailId {
+  margin: 15px auto;
+  text-align: center;
+  width: 90%;
+}
+
+em {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.name h2 {
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.name p {
+  color: rgb(179, 179, 179);
+}
+
+.back-side {
+  padding: 20px 0;
+}
+
+.name-tag {
+  align-self: center;
+  z-index: 2;
+  width: 98%;
+  border-radius: 3px;
+  margin: auto;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0.363);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.288);
+  font-size: 0.6rem; /*12px;*/
+  letter-spacing: 0.1rem;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.name-tag h1,
+h3 {
+  margin: 2px;
+  font-weight: unset;
+}
