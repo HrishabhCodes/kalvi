@@ -20,3 +20,6 @@
 ### CODEALONG PROEJCTS
 
 - [FE0012](https://hrishabhcodes.github.io/FE0012/)
+- [FE0018](https://hrishabhcodes.github.io/FE0018/)
+- [FE0027 and FE0028](https://hrishabhcodes.github.io/FE0027-and-FE0028/)
+- [FE0033](https://hrishabhcodes.github.io/FE0033/)
