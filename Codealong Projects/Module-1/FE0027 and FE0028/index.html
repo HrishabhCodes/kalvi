@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Friend Application Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>College Slambook</h1>
+        <img
+          src="https://i1.faceprep.in/ProGrad/hello-minion.png"
+          alt="hello-minion"
+        />
+        <p>
+          Hello there I need a new best friend...because the last one escaped 😊
+          not my though, I'm a little moody but super cool.
+        </p>
+        <h3>Wanna be friends?</h3>
+      </div>
+      <form action="submit" method="post" enctype="text/plain">
+        <label class="name">What is your name?</label>
+        <input type="text" name="name" id="name" placeholder="Aryan" />
+        <label class="nick-name">What do you want to call me as?</label>
+        <input type="text" name="nickname" id="nickname" placeholder="Andy" />
+        <label class="genre" for="genre"
+          >Favorite TV show, movie or series genres:</label
+        >
+        <br />
+        <input type="checkbox" name="anime" id="anime" />
+        <label for="anime">Anime</label>
+        <input type="checkbox" name="horror" id="horror" />
+        <label for="horror">Horror</label>
+        <input type="checkbox" name="sci-fi" id="sci-fi" />
+        <label for="sci-fi">Sci-Fi</label>
+        <input type="checkbox" name="comedy" id="comedy" />
+        <label for="comedy">Comedy</label>
+        <br />
+        <input type="checkbox" name="drama" id="drama" />
+        <label for="drama">Drama</label>
+        <input type="checkbox" name="action" id="action" />
+        <label for="action">Action</label>
+        <input type="checkbox" name="romance" id="romance" />
+        <label for="romance">Romance</label>
+        <br />
+        <label class="memories" for="memories"
+          >What are your favorite memories in college?</label
+        >
+        <textarea
+          name="memories"
+          id="memories"
+          cols="30"
+          rows="5"
+          placeholder="My favorite memories from college are..."
+        ></textarea>
+        <input type="submit" value="Let's Be Friends" />
+      </form>
+    </section>
+  </body>
+</html>

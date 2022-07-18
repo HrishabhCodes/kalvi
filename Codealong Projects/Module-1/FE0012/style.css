@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Heebo", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(220, 220, 220);
+}
+
+.heading {
+  width: 70%;
+  color: black;
+  font-size: 70px;
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.namecard {
+  margin: auto;
+  width: 70%;
+}
+
+a {
+  color: white;
+}
+
+.front-side {
+  width: 450px;
+  height: 280px;
+  margin: 40px auto;
+  background-color: black;
+}
+
+.info-grid {
+  width: 100%;
+  height: 95%;
+  font-size: 11px;
+}
+
+.intro {
+  padding: 2px 0;
+  background-color: rgba(240, 248, 255, 0.362);
+  width: 97%;
+  height: 130px;
+  margin: auto;
+  text-align: center;
+}
+
+.addr,
+.phoneNo,
+.emailId {
+  margin: 15px auto;
+  text-align: center;
+  width: 90%;
+}
+
+em {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.intro h2 {
+  margin-bottom: 6px;
+  margin-top: 10px;
+}
+
+.intro p {
+  color: rgb(179, 179, 179);
+}
+
+.profile-pic {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  margin-top: 10px;
+  width: 60px;
+}
