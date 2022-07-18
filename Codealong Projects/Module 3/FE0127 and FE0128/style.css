@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Roboto:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: "Amatic SC", cursive;
+}
+
+.container {
+  width: 90%;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+}
+
+label,
+input {
+  width: 100%;
+}
+
+label {
+  font-size: 25px;
+  font-family: "Amatic SC", cursive;
+}
+
+input {
+  outline: none;
+  margin-bottom: 20px;
+  height: 40px;
+}
+
+.books-table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 100%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.books-table thead tr {
+  background-color: rgb(0, 80, 146);
+  color: #ffffff;
+  text-align: left;
+  font-weight: 400;
+}
+
+.books-table th,
+.books-table td {
+  word-wrap: break-word;
+  padding: 12px 15px;
+}
+
+.books-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.books-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.books-table tbody tr:last-of-type {
+  border-bottom: 2px solid rgb(0, 80, 146);
+}
+
+.submit {
+  background-color: rgb(71, 172, 255);
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Amatic SC", cursive;
+}
+
+.submit:hover {
+  cursor: pointer;
+}
+
+#title,
+#author,
+#isbn {
+  border: 1px solid rgba(133, 133, 133, 0.606);
+  padding: 20px;
+  font-size: 15px;
+}
+
+.delete {
+  color: rgb(255, 78, 78);
+}
+
+.delete:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 400px) {
+  .books-table {
+    width: 350px;
+  }
+}
