@@ -1,0 +1,99 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #f2f3f5;
+}
+
+.navbar {
+  font-size: 18px;
+  background-image: linear-gradient(260deg, #161a24 0%, #062952 100%);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav {
+  list-style-type: none;
+  display: flex;
+  margin-right: 2rem;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+li a:hover {
+  color: white;
+}
+
+.nav-links,
+.logo {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.logo {
+  display: inline-block;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+a {
+  cursor: pointer;
+}
+
+.custom-button {
+  background: rgb(0, 0, 0);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.blog-grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+  margin: 5vh 12vw;
+}
+
+.blog-post {
+  min-height: 50vh;
+  text-align: center;
+  background: white;
+}
+
+.blog-cover-img {
+  width: 100%;
+}
+
+.blog-content {
+  padding: 1rem;
+  text-align: left;
+}
+
+.blog-content-description {
+  margin: 2vh 0 0 0;
+}
+
+.footer {
+  height: 10vh;
+  background: black;
+  color: white;
+  margin: 5vh 0 0 0;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 3vh 0 0 0;
+}
+
+.icon {
+  font-size: 25px;
+  margin: 0 20px;
+  color: white;
+}
