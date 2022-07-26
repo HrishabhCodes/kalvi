@@ -1,16 +1,26 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Nerko+One&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 body {
-  /* font-family: "Nerko One", cursive; */
-  background: url(https://i1.faceprep.in/ProGrad/minion-background.png);
+  font-family: "Dosis", sans-serif;
+  background: url("./assets/background-image.png");
   background-size: 100% 100%;
 }
 
 section {
   width: 500px;
-  background-color: white;
-  margin: auto;
+  margin: 20px auto;
   padding: 10px 0;
+  background: rgba(245, 245, 245, 0.636);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0 20px 50px -10px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
 }
 
 div {
@@ -23,16 +33,28 @@ div {
 
 input,
 textarea {
-  margin: 10px 0;
+  margin: 5px 0 10px 0;
+}
+
+img {
+  width: 200px;
 }
 
 p,
 input[type="text"],
 input[type="number"],
 textarea,
+select,
 form {
   width: 350px;
-  padding: 80x;
+  padding: 5px;
+  font-family: "Dosis", sans-serif;
+  outline: none;
+}
+
+input[type="text"],
+input[type="number"] {
+  height: 30px;
 }
 
 p,
@@ -42,7 +64,7 @@ form {
 
 input[type="submit"] {
   display: block;
-  background-color: violet;
+  background-color: #34a6fe;
   color: white;
   margin: auto;
   padding: 10px;
@@ -57,4 +79,20 @@ input[type="submit"]:hover {
 
 input[type="checkbox"] {
   margin: 5px 0 5px 10px;
+}
+
+input[type="radio"] {
+  margin: 2px 0 2px 10px;
+}
+
+select {
+  margin: 5px 0 10px 0;
+}
+
+ol {
+  margin: 5px 0 5px 20px;
+}
+
+.question {
+  font-weight: 700;
 }

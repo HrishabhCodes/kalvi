@@ -9,11 +9,8 @@
   <body>
     <section>
       <div>
-        <h1>College Slambook</h1>
-        <img
-          src="https://i1.faceprep.in/ProGrad/hello-minion.png"
-          alt="hello-minion"
-        />
+        <h1>Best Friend Application</h1>
+        <img src="./assets/friends.png" alt="friends" />
         <p>
           Hello there I need a new best friend...because the last one escaped 😊
           not my though, I'm a little moody but super cool.
@@ -21,11 +18,13 @@
         <h3>Wanna be friends?</h3>
       </div>
       <form action="submit" method="post" enctype="text/plain">
-        <label class="name">What is your name?</label>
-        <input type="text" name="name" id="name" placeholder="Aryan" />
-        <label class="nick-name">What do you want to call me as?</label>
+        <label class="question name">What is your name?</label>
+        <input type="text" name="name" id="name" placeholder="John" />
+        <label class="question nick-name"
+          >What do you want to call me as?</label
+        >
         <input type="text" name="nickname" id="nickname" placeholder="Andy" />
-        <label class="genre" for="genre"
+        <label class="question genre" for="genre"
           >Favorite TV show, movie or series genres:</label
         >
         <br />
@@ -45,7 +44,51 @@
         <input type="checkbox" name="romance" id="romance" />
         <label for="romance">Romance</label>
         <br />
-        <label class="memories" for="memories"
+        <label class="question" for="cuisine"
+          >What's your favorite cuisine?</label
+        >
+        <br />
+        <select name="cuisine" id="cuisine">
+          <option value="indian">Indian</option>
+          <option value="italian">Italian</option>
+          <option value="chinese">Chinese</option>
+          <option value="american">American</option>
+          <option value="japanese">Japanese</option>
+        </select>
+        <br />
+        <label class="question" for="preferences">What do you prefer?</label>
+        <ol>
+          <li>
+            <input type="radio" name="drink" id="tea" value="tea" />
+            <label for="drink">Tea</label>
+            <input type="radio" name="drink" id="coffee" value="coffee" />
+            <label for="drink">Coffee</label>
+          </li>
+          <li>
+            <input type="radio" name="season" id="summer" value="summer" />
+            <label for="season">Summer</label>
+            <input type="radio" name="season" id="winter" value="winter" />
+            <label for="season">Winter</label>
+          </li>
+          <li>
+            <input type="radio" name="location" id="beach" value="beach" />
+            <label for="location">Beach</label>
+            <input
+              type="radio"
+              name="location"
+              id="mountains"
+              value="mountains"
+            />
+            <label for="location">Mountains</label>
+          </li>
+          <li>
+            <input type="radio" name="time" id="night" value="night" />
+            <label for="time">Night Owl</label>
+            <input type="radio" name="time" id="morning" value="morning" />
+            <label for="time">Early Bird</label>
+          </li>
+        </ol>
+        <label class="question memories" for="memories"
           >What are your favorite memories in college?</label
         >
         <textarea
